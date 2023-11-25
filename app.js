@@ -77,7 +77,7 @@ const convertSecondsToHMS = (totalSeconds) => {
   if (totalSeconds) {
     const hours = Math.floor(totalSeconds / 3600);
     const minutes = Math.floor((totalSeconds % 3600) / 60);
-    return `${hours}hrs ${minutes}min ago`;
+    return `${hours}hours ${minutes}mins ago`;
   } else {
     return "";
   }
